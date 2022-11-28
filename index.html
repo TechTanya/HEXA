@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coctact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="image2/img_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> </h5>
+          <p> </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="image2/2nd.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> </h5>
+          <p> </p>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <section class="section bg-opacity-100">
+    <div class="container p-5 bg-opacity-100">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 p-3">
+          <div class="media  text-center">
+            <div class="icon "><span class=" "></span></div>
+            <div class="media-body">
+              <img src="image2/bell.jpg" style="width: 40px;" ;>
+              <h3 class="heading">Modern Design</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 p-3">
+          <div class="media  text-center">
+            <div class="icon "><span class=" "></span></div>
+            <div class="media-body">
+              <img src="image2/heart2.jpg" style="width: 40px;" ;>
+              <h3 class="heading">Build With Love</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 p-3">
+          <div class="media  text-center">
+            <div class="icon "><span class=" "></span></div>
+            <div class="media-body">
+              <img src="image2/flash.jpg" style="width: 40px;" ;>
+
+              <h3 class="heading">Fast Loading</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-md-5 p-3">
+        <h5>01 INFRASTURE</h5>
+        <h1 class=" inside-content-1">Lets Build Together</h1>
+        <div class="para">
+          <div class="container-fluid p-5">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+              ocean.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-7 p-3">
+        <img src="image2/img_1_long.jpg " class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-md-7 p-3">
+        <img src="image2/img_2_long.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-5 p-3">
+        <h5>02
+          COLLABORATE</h5>
+        <h1 class=" inside-content-1">Open for Collaboration
+        </h1>
+        <div class="para">
+          <div class="container p-5">
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+              paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-5 ">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h1 style="text-align: center">Projects</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta
+          sit quam minima expedita atque corrupti reiciendis.</p>
+      </div>
+    </div>
+  </div>
+  <div clas="container-fluid
+  ">
+    <div class="row">
+      <div class="col-4">
+        <img src="image2/project1.jpg" class="img-fluid" width="1300px" height="427px">
+
+      </div>
+      <div class="col-4">
+        <img src="image2/img_2.jpg" class="img-fluid" width="1300px" height="427px">
+      </div>
+      <div class="col-md-4">
+        <img src="image2/project2.jpg" class="img-fluid" width="1300px" height="427px">
+      </div>
+      <div class="col-4">
+        <img src="image2/img_4.jpg" class="img-fluid" width="1300px" height="427px">
+      </div>
+      <div class="col-4">
+        <img src="image2/img_2_long.jpg" class="img-fluid" width="1300px" height="30 px">
+      </div>
+      <div class="col-4">
+        <img src="image2/project6.jpg" class="img-fluid" width="1300px" height="427">
+      </div>
+    </div>
+  </div>
+
+  <div class="container " id="testimonial">
+    <div class="row">
+      <div class="container p-5 " style="text-align: center " ;>
+
+
+        <h1>Testimonial
+        </h1>
+        <div class="para">
+          <div class="container p-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta
+              sit quam minima expedita atque corrupti reiciendis.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+
+            <div class="card  animate__animated animate__pulse" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <img src="image2/person_2.jpg" class="rounded-circle" width="50px">
+                  </div>
+                  <div class="col-sm-9">
+                    <h4>Jhon Smith</h4>
+                    <span>CEO Co-founder</span>
+                  </div>
+                </div>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's
+                  content</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+
+            <div class="card  animate__animated animate__pulse" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <img src="image2/person_2.jpg" class="rounded-circle" width="50px">
+                  </div>
+                  <div class="col-sm-9">
+                    <h4>Jhon Smith</h4>
+                    <span>CEO Co-founder</span>
+                  </div>
+                </div>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's
+                  content</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+
+            <div class="card  animate__animated animate__pulse" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <img src="image2/person_2.jpg" class="rounded-circle" width="50px">
+                  </div>
+                  <div class="col-sm-9">
+                    <h4>Jhon Smith</h4>
+                    <span>CEO Co-founder</span>
+                  </div>
+                </div>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's
+                  content</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container  bg-opacity-10" id="testimonial">
+    <div class="row">
+      <div class="container p-5 " style="text-align: center " ;>
+
+
+        <h1>Blog post
+        </h1>
+        <div class="para">
+          <div class="container p-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta
+              sit quam minima expedita atque corrupti reiciendis.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 ">
+      <div class="media mb-4 d-md-flex d-block ">
+        <a href="#" class="mr-5"><img src="image2/img_2_long.jpg" alt="Placeholder image" class="img-fluid"></a>
+        <div class="media-body">
+          <span class="post-meta">Feb 26th, 2018</span>
+          <h3 class="mt-2 text-black">Free Website Template at Free-Template.co</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam minus ipsa earum nemo consectetur
+            cupiditate necessitatibus suscipit assumenda perspiciatis provident.</p>
+          <p><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="media mb-4 d-md-flex d-block ">
+        <a href="#" class="mr-5"><img src="image2/img_4.jpg" alt="Placeholder image" class="img-fluid"></a>
+        <div class="media-body">
+          <span class="post-meta">Feb 26th, 2018</span>
+          <h3 class="mt-2 text-black">Free Website Template at Free-Template.co</h3>
+          <p><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+        </div>
+      </div>
+      <div class="media mb-4 d-md-flex d-block ">
+        <a href="#" class="mr-5"><img src="image2/img_1_long.jpg" alt="Placeholder image" class="img-fluid"></a>
+        <div class="media-body ">
+          <span class="post-meta">Feb 26th, 2018</span>
+          <h3 class="mt-2 text-black">Free Website Template at Free-Template.co</h3>
+          <p><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="footer pt-5">
+    <div class="container-fluid bg-dark">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5  pt-5" style="color: white;">
+          <h3>About The Hexa Template</h3>
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis
+            consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+          <a href="#" class="fa fa-facebook "></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class =" fa fa-instagram"></a>
+         
+        </div>
+        <div class="col-md-5 mb-5 pl-md-5 pt-5">
+          <h3>Contact Info</h3>
+          <ul class="list-unstyled footer-link">
+            <li class="d-block">
+              <span class="d-block" style="color: white;">Address:</span>
+              <span class="text-white">34 Street Name, City Name Here, United States</span>
+            </li>
+            <li class="d-block"><span class="d-block" style="color: white;">Telephone:</span><span class="text-white">+1
+                242 4942 290</span>
+            </li>
+            <li class="d-block"><span class="d-block" style="color: white;">Email:</span><span
+                class="text-white">info@yourdomain.com</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5 pt-5">
+          <h3>Quick Links</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Disclaimers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left" style="color: white;">
+          <p>
+            Copyright
+            2022 All rights reserved | This template is made with <i class=" "></i> by <a>Colorlib</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
